@@ -44,3 +44,4 @@ locust -f noise-trader-py/locustfile.py --headless -u 50 -r 10 --run-time 5m --h
 | **v1.1.0** | **High-Throughput WebSocket Bots** | Async Python (`aiohttp` / `asyncio`) or Go bot client capable of blasting 20,000 orders/sec across 500 simulated trading accounts. |
 | **v1.2.0** | **Historical L3 Order Book Replay** | Replay actual historical NASDAQ / Binance Level 3 order book pcap captures against the matching engine to benchmark latency under real flash-crash conditions. |
 | **v2.0.0** | **DPDK / Packet-Blaster Harness** | C++ FPGA/DPDK raw UDP packet injector capable of line-rate testing (10 Million orders/sec) to identify microsecond jitter in the matching engine. |
+
